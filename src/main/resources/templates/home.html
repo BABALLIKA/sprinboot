@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<h1> Main Page </h1>
+<div>
+    <h3 th:utext="${massage}"></h3>
+    <br>
+    <a th:href="@{/admin}">Admin's Page</a>
+    <br>
+    <a th:href="@{/user}">User's Page</a>
+</div>
+</body>
+</html>
